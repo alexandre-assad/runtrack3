@@ -6,5 +6,5 @@ function bisextile(annee) {
     }
 }
 
-console.log(bisextile(2000))
-console.log(bisextile(1999))
+console.log(bisextile(2000));
+console.log(bisextile(1999));
