@@ -1,0 +1,29 @@
+.section {
+    background-color : #88c1d0;
+    width: 150px;
+    height: 150px;
+    margin:10px
+}
+
+.conteneur {
+    display: grid;
+}
+
+
+@media (min-width:1600px)  {
+    .conteneur {
+    display: flex;
+    
+}
+}
+@media (min-width:768px) and (max-width:1599px) {
+    .conteneur {
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+}
+@media (max-width:767px)  {
+    .conteneur {
+    grid-template-rows: repeat(4,1fr);
+}
+}
